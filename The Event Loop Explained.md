@@ -22,7 +22,7 @@ Try selecting text or clicking on buttons. Can't? Let's see why. <!-- will the a
 Here is the event loop while our code is running. 
 
 ![blocked event loop](https://i.imgur.com/C1P1MR7.jpg)
-It is stuck in our Javascript infinite loop. The website can't re-render or handle other events, like clicks, because we haven't given control back to the browser.
+It is stuck in our Javascript infinite loop. The website can't re-render or handle other events, like clicks, because we haven't given control back to the browser. <!-- and the browser has no notion -->
 
 This is called blocking the event loop. Long tasks like loops can unintentionally block the event loop, and make web apps and sites feel slow and unresponsive. 
 
@@ -59,5 +59,6 @@ As browsers and Javascript engines become faster and more powerful, client-side 
 
 Understanding the event loop is the first step to creating great web-based software. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjM1Nzk4LDE3ODMzMzQyNTldfQ==
+eyJoaXN0b3J5IjpbMTczMDkzMjkwMSwxMjQyMzU3OTgsMTc4Mz
+MzNDI1OV19
 -->
