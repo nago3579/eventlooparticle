@@ -48,7 +48,7 @@ foo(callbackFunction) //calls callbackFunction as async
 console.log("finished script")
 ~~~
 While seemingly innocuous, this code has some interesting aspects to it. Due to hoisting (a subject for another article), the function callbackFunction is defined. Then we invoke foo. This places callbackFunction on the callback stack. "Finished script" is now logged. Now that the stack is clear, callbackFunction can be invoked and print "called foo" to the log. We end up with a console log that looks like
-~~~javascript
+~~~
 finished script
 called foo
 ~~~
@@ -58,7 +58,8 @@ This non-linear execution is difficult to understand, and leads to callback hell
 As browsers and Javascript engines become faster and more powerful, client-side Javascript is more efficient. Non-blocking asynchronous code is crucial for responsive web apps that use web/server requests or complex processes during run-time. 
 
 Understanding the event loop is the first step to creating great web-based software. 
+<!-- The event loop sreems to me lik-->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDkzMjkwMSwxMjQyMzU3OTgsMTc4Mz
-MzNDI1OV19
+eyJoaXN0b3J5IjpbMzk1NDQzMjQ0LDE3MzA5MzI5MDEsMTI0Mj
+M1Nzk4LDE3ODMzMzQyNTldfQ==
 -->
