@@ -60,6 +60,5 @@ As browsers and Javascript engines become faster and more powerful, client-side 
 Understanding the event loop is the first step to creating great web-based software. 
 <!-- The event loop seems to me like concurrent execution-->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUwNTkyOTUsMTczMDkzMjkwMSwxMj
-QyMzU3OTgsMTc4MzMzNDI1OV19
+eyJoaXN0b3J5IjpbLTE0NzUwNTkyOTVdfQ==
 -->
