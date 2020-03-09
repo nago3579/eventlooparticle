@@ -1,6 +1,6 @@
 # The Event Loop Explained
 ### Parallel Processing
-In the early 2000s, CPU manufacturers hit a wall. At the time, clock cycles were king. The more cycles your CPU could produce, the more instructions it could preform a second, and the faster the machine. With increased cycles came increased heat - too much to dissipate. Clever manufacturers instead opted to increase the number of cores, allowing for performance-seeking processes to access an entire core, leaving the rest for other tasks. Clever programmers used clever languages to access these other cores and tease out speed.  Nowadays, those same clever developers use these multiple cores for synchronous tasks, like background processes or running two applications at once.  
+In the early 2000s, CPU manufacturers hit a wall. At the time, clock cycles were king. The more cycles your CPU could produce, the more instructions it could preform a second, and the faster the machine. With increased cycles came increased heat - too much to dissipate. Clever manufacturers instead opted to increase the number of cores, allowing for performance-seeking processes to access an entire core, leaving the rest for other tasks. Clever programmers used specialized languages to access these other cores and tease out speed.  Nowadays, those same clever developers use these multiple cores for synchronous tasks, like background processes or running two applications at once.  
 
 Javascript (JS) is not that clever. JS is a single-threaded language, meaning that it can access to only one core to execute one line of instructions. This is a big limitation. For example, if there was a timer on a website and another  JS event were to happen, such as an animation, the timer would halt while the browser handled the other instructions. **Javascript's workaround is the event loop.** <!-- some lead up would be nice like:  This was not very good for the future of javascript development and so clever people made what is not called the event loop. -->
 
@@ -63,5 +63,5 @@ As browsers and Javascript engines become faster and more powerful, client-side 
 Understanding the event loop is the first step to creating great web-based software. 
 <!-- The event loop seems to me like concurrent execution-->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODEzOTI2ODldfQ==
+eyJoaXN0b3J5IjpbMTEyMzc4NDUwMSwtMTg4MTM5MjY4OV19
 -->
