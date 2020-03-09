@@ -19,7 +19,7 @@ In a new tab, try pasting the following code into your [browser's console](https
 ~~~javascript
 while(true){ console.log("Section is cool") }
 ~~~
-Try selecting text or clicking on buttons. Can't? Let's see why. 
+Try selecting text or clicking on buttons. Can't? Let's see why.
 
 Here is the event loop while our code is running. 
 
@@ -63,6 +63,6 @@ As browsers and Javascript engines become faster and more powerful, client-side 
 Understanding the event loop is the first step to creating great web-based software. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDgzODQ2NzQsMTcxMzYzNzM5NiwxMT
-IzNzg0NTAxLC0xODgxMzkyNjg5XX0=
+eyJoaXN0b3J5IjpbMTkyODk3MDU5MiwxNzEzNjM3Mzk2LDExMj
+M3ODQ1MDEsLTE4ODEzOTI2ODldfQ==
 -->
