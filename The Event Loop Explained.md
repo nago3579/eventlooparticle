@@ -61,7 +61,8 @@ This non-linear execution is difficult to understand, and leads to callback hell
 As browsers and Javascript engines become faster and more powerful, client-side Javascript is more efficient. Non-blocking asynchronous code is crucial for responsive web apps that use web/server requests or complex processes during run-time. 
 
 Understanding the event loop is the first step to creating great web-based software. 
-<!-- The event loop seems to me like concurrent execution-->
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzc4NDUwMSwtMTg4MTM5MjY4OV19
+eyJoaXN0b3J5IjpbMTcyNzA3Njk3NywxMTIzNzg0NTAxLC0xOD
+gxMzkyNjg5XX0=
 -->
